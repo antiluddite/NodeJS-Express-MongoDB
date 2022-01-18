@@ -1,6 +1,6 @@
-module.exports = (x, y, callback) => {
-    if (x <= 0 || y <=0) {
-        callback(new Error(`Rectangle dimension must be greater than zero. Recieved: ${x}, ${y}`));
+export const rect = (x, y, callback) => {
+    if (x <= 0 || y <= 0) {
+        callback(new Error(`Rectangle dimension must be greater than zero. Received: ${x}, ${y}`));
     } else {
         setTimeout(() =>
             callback(null, {

@@ -1,0 +1,20 @@
+{
+  "name": "examples-copy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antiluddite/NodeJS-Express-MongoDB.git"
+  },
+  "author": "maureen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antiluddite/NodeJS-Express-MongoDB/issues"
+  },
+  "homepage": "https://github.com/antiluddite/NodeJS-Express-MongoDB#readme"
+}
